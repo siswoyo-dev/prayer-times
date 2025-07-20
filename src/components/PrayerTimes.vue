@@ -125,6 +125,7 @@ export default {
 <style scoped>
 .main-container {
   display: flex;
+  flex-wrap: wrap; /* allow stacking on small screens */
   height: 100vh;
   width: 100vw;
   overflow: hidden;
@@ -235,7 +236,7 @@ export default {
 
 /* Bottom-right domes */
 .mihrab-container {
-  position: absolute;
+  position: relative;
   bottom: 30px;
   right: 40px;
   display: flex;
