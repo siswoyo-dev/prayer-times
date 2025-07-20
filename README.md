@@ -14,3 +14,7 @@ pnpm run dev
 Production:
 
 pnpm run build
+
+### Live website
+
+https://daily-prayer-times.netlify.app/
