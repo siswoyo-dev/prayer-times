@@ -82,8 +82,8 @@ export default {
     });
 
     // Fetch user's city using IP geolocation
-    // https://ipapi.co/json/
-    // https://api.bigdatacloud.net/data/reverse-geocode-client
+    // 1. https://ipapi.co/json/
+    // 2. https://api.bigdatacloud.net/data/reverse-geocode-client
     fetch("https://ipapi.co/json/")
       .then((res) => res.json())
       .then((data) => {
