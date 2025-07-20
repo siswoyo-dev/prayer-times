@@ -137,7 +137,6 @@ export default {
   min-width: 300px;
   background: linear-gradient(to bottom, #e6ffe6, #c3f5c3);
   padding: 30px 20px;
-  padding-bottom: 150px; /* ✅ ADD THIS LINE */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
